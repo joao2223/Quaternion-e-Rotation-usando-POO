@@ -8,7 +8,7 @@ números complexos. Um quaternion pode ser representado como:
 q 1 +q 2 i +q 3 j +q 4 k ,
 ```
 ```
-ondeq 1 ,q 2 ,q 3 eq 4 são números reais, enquanto i , j e k são números distintos (imaginários) que
+onde q1 ,q2 ,q3 e q4 são números reais, enquanto i , j e k são números distintos (imaginários) que
 satisfazem as relações:
 ```
 ```
