@@ -12,7 +12,7 @@ onde q1 ,q2 ,q3 e q4 são números reais, enquanto i , j e k são números disti
 satisfazem as relações:
 ```
 ```
-i^2 = j^2 = k^2 = ijk = − 1 ,
+i<sup>2</sup> = j<sup>2</sup> = k<sup>2</sup> = ijk = − 1 ,
 ij =− ji = k ,
 jk =− kj = i ,
 ki =− ik = j.
