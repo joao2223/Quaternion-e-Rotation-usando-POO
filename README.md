@@ -2,7 +2,7 @@
 
 ```
 Quaternions são números com álgebra não-comutativa (isto é,ab̸=baem geral) que generalizam
-números complexos. Um quaternion pode ser representado como:
+números complexos. Um quaternion pode ser representado como: ax<sup>2</sup>
 ```
 ```
 q 1 +q 2 i +q 3 j +q 4 k ,
