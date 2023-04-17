@@ -4,14 +4,14 @@
 Quaternions são números com álgebra não-comutativa (isto é,ab̸=baem geral) que generalizam
 números complexos. Um quaternion pode ser representado como:
 ```
+```math
+q_1 +q_2 i +q_3 j +q_4 k ,
 ```
-q 1 +q 2 i +q 3 j +q 4 k ,
 ```
-```
-ondeq 1 ,q 2 ,q 3 eq 4 são números reais, enquanto i , j e k são números distintos (imaginários) que
+onde q_1 ,q2 ,q3 e q4 são números reais, enquanto i^2 , j e k são números distintos (imaginários) que
 satisfazem as relações:
 ```
-```
+```math
 i^2 = j^2 = k^2 = ijk = − 1 ,
 ij =− ji = k ,
 jk =− kj = i ,
@@ -21,48 +21,28 @@ As três últimas linhas são redundantes com a primeira. O número real xcorres
 x+ 0 **i** + 0 **j** + 0 **k** e o número complexoz=a+b **i** corresponde aa+b **i** + 0 **j** + 0 **k**.
 O _conjugado_ deq=q 1 +q 2 **i** +q 3 **j** +q 4 **k** é definido como
 
-```
+```math
 q ̄=q 1 −q 2 i −q 3 j −q 4 k.
 ```
 A soma dea=a 1 +a 2 **i** +a 3 **j** +a 4 **k** comb=b 1 +b 2 **i** +b 3 **j** +b 4 **k** é
 
-```
+```math
 a+b= (a 1 +b 1 ) + (a 2 +b 2 ) i + (a 3 +b 3 ) j + (a 4 +b 4 ) k.
 ```
 ```
 O produto é dado por
 ```
-```
-ab = (a 1 b 1 −a 2 b 2 −a 3 b 3 −a 4 b 4 )
-+ (a 1 b 2 +a 2 b 1 +a 3 b 4 −a 4 b 3 ) i
-+ (a 1 b 3 −a 2 b 4 +a 3 b 1 +a 4 b 2 ) j
-+ (a 1 b 4 +a 2 b 3 −a 3 b 2 +a 4 b 1 ) k.
-```
-```
-Note que, seaé real, entãoa 2 =a 3 =a 4 = 0ea 1 =a, e portanto a expressão acima simplifica
-paraab=ab 1 +ab 2 i +ab 3 j +ab 4 k .Também dá para verificar queqq ̄=qq ̄ =q^21 +q^22 +q^23 +q 42 é
-sempre real.^1
-```
-(^1) Esta expressão, apesar de uma consequência da fórmula de multiplicação, **deve ser usada em calculos
-em computador sempre que for adequada** : Os valores dos coeficientes de **i** _,_ **j** _,_ **k** se anulam, mas devido
-a problemas de arredondamento, se _q_ ̄ _q_ for calculado pela fórmula de multiplicação podem restar coeficientes
-imaginários não-nulos (o que ocasiona problema, por exemplo, no cálculo da norma).
-
+```math
+ab = (a_1 b_1 −a_2 b_2 −a_3 b_3 −a_4 b_4 )
++ (a_1 b_2 +a 2 b_1 +a_3 b_4 −a 4 b_3 ) i
++ (a_1 b_3 −a_2 b_4 +a_3 b_1 +a_4 b_2 ) j
++ (a_1 b_4 +a_2 b_3 −a_3 b_2 +a_4 b_1 ) k.
 
 ```
 O inverso de um quaternion é definido como:
 ```
-```
-q−^1 =
-```
-#### 1
-
-```
-qq ̄
-```
-```
-q ̄
-```
+```math
+q^1 =
 ```
 e sua norma como:
 |q|=
