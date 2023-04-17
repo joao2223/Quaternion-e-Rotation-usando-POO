@@ -21,10 +21,10 @@ O _conjugado_ deq=q 1 +q 2 **i** +q 3 **j** +q 4 **k** é definido como
 ```math
 q ̄=q_1 −q_2 i −q_3 j −q_4 k.
 ```
-A soma dea=a 1 +a 2 **i** +a 3 **j** +a 4 **k** comb=b 1 +b 2 **i** +b 3 **j** +b 4 **k** é
+A soma de a=a 1 +a 2 **i** +a 3 **j** +a 4 **k** comb=b 1 +b 2 **i** +b 3 **j** +b 4 **k** é
 
 ```math
-a+b= (a 1 +b 1 ) + (a 2 +b 2 ) i + (a 3 +b 3 ) j + (a 4 +b 4 ) k.
+a+b= (a_1 +b_1 ) + (a_2 +b_2 ) i + (a_3 +b_3 ) j + (a_4 +b_4 ) k.
 ```
 O produto é dado por
 
