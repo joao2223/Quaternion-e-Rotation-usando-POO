@@ -6,7 +6,7 @@ números complexos. Um quaternion pode ser representado como:
 ```math
 q_1 +q_2 i +q_3 j +q_4 k ,
 ```
-onde q_1 ,q2 ,q3 e q4 são números reais, enquanto i^2 , j e k são números distintos (imaginários) que
+onde $$q_1 ,q_2 ,q_3, q_4$$ são números reais, enquanto i , j e k são números distintos (imaginários) que
 satisfazem as relações:
 ```math
 i^2 = j^2 = k^2 = ijk = − 1 ,
@@ -16,12 +16,12 @@ ki =− ik = j.
 ```
 As três últimas linhas são redundantes com a primeira. O número real xcorresponde a
 x+ 0 **i** + 0 **j** + 0 **k** e o número complexoz=a+b **i** corresponde aa+b **i** + 0 **j** + 0 **k**.
-O _conjugado_ deq=q 1 +q 2 **i** +q 3 **j** +q 4 **k** é definido como
+O _conjugado_ de q é definido como
 
 ```math
 q ̄=q_1 −q_2 i −q_3 j −q_4 k.
 ```
-A soma de a=a 1 +a 2 **i** +a 3 **j** +a 4 **k** comb=b 1 +b 2 **i** +b 3 **j** +b 4 **k** é
+A soma de a com b é
 
 ```math
 a+b= (a_1 +b_1 ) + (a_2 +b_2 ) i + (a_3 +b_3 ) j + (a_4 +b_4 ) k.
